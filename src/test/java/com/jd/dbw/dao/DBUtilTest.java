@@ -17,4 +17,9 @@ public class DBUtilTest {
             e.printStackTrace();
         }
     }
+
+    @Test
+    public void count() {
+        DBUtil.count("city");
+    }
 }

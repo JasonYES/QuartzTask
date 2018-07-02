@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>数据库实时报告</title>
+</head>
+<body>
+
+<div class='table-class'>
+    <table width='400' border='1px'>
+        <h3>数据库实时报告</h3>
+        <tr style='background-color: #d7d7d7;'><td width='300'>数据表</td><td width='600'>记录条数</td><td width='400'>说明</td></tr>
+
+        #foreach($m in $map.entrySet())
+        <tr><td>$m.key</td><td>$m.value</td><td>无异常</td></tr>
+        #end
+
+    </table>
+</div>
+
+</body>
+
+<style>
+    body{
+        text-align: center;
+    }
+    .table-class table{
+        margin: 0px auto;
+        width: 30%;
+        height: 100px;
+        border-width: 1px;
+        border-collapse: collapse;
+    }
+</style>
+</html>

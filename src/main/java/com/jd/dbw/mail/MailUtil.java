@@ -1,17 +1,18 @@
 package com.jd.dbw.mail;
 
-import com.jd.dbw.dao.DBSelector;
+//import com.jd.dbw.dao.DBSelector;
 import com.jd.dbw.dao.ProLoader;
 import org.apache.commons.mail.EmailException;
 import org.apache.commons.mail.HtmlEmail;
 
 import java.util.Properties;
 
+@Deprecated
 public class MailUtil {
 
     public static void send() {
 
-        Properties pro = ProLoader.load();
+        Properties pro = ProLoader.getProperties();
         String hostname = pro.getProperty("mail.hostname");
         String to = pro.getProperty("mail.to");
         String from = pro.getProperty("mail.from");
@@ -36,7 +37,7 @@ public class MailUtil {
 
             //邮件内容的拼接
             StringBuilder sb = new StringBuilder();
-            sb.append("<h1>数据库实时记录条数：" + new DBSelector().count() + "</h1>");
+//            sb.append("<h1>数据库实时记录条数：" + new DBSelector().count("city") + "</h1>");
 
             email.setHtmlMsg(sb.toString());
             // 发送

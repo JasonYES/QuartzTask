@@ -1,7 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eefcc6ba-8cb4-4f7b-97de-5aceb362ad70" name="Default" comment="" />
+    <list default="true" id="eefcc6ba-8cb4-4f7b-97de-5aceb362ad70" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4c55cca8-a710-44ed-8b23-a8c976a58413.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBWatcher.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/ProLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/mail/MailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/mail/MailUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/QuartzTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/WatchJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/utils/EmailMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/utils/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/utils/JSONHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/utils/SendEmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jd/dbw/view/VeloDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mail.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/main.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/quartz.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/unused.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DBUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DataServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/ProLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/MailSenderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jd/dbw/timer/QuartzTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jd/dbw/view/velosityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DBWatcher-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/dao/DBUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/dao/DataService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/dao/ProLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/mail/MailSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/mail/MailUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/timer/QuartzTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/timer/WatchJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/utils/EmailMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/utils/HttpUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/utils/JSONHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/utils/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/utils/SendEmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jd/dbw/view/VeloDrawer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mail.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/quartz.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/unused.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/jd/dbw/dao/DBUtilTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/jd/dbw/dao/DataServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/jd/dbw/dao/ProLoaderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/jd/dbw/mail/MailSenderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/jd/dbw/timer/QuartzTaskTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/jd/dbw/view/velosityTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,117 +88,21 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="world@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MailUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/mail/MailUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding>
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBSelector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DBSelector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBSelectTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DBSelectTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-              <folding>
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBUtilTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DBUtilTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DBUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WatchJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/WatchJob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="63" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuartzTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/QuartzTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="21" selection-start-line="7" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuartzTaskTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/timer/QuartzTaskTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/ProLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,6 +127,11 @@
       <find>spring.datasource.</find>
       <find>getResource</find>
       <find>(&quot;</find>
+      <find>sendEmailSysIdx</find>
+      <find>stox.versi</find>
+      <find>jackson</find>
+      <find>compiler</find>
+      <find>${db.driver-class-name}</find>
     </findStrings>
     <replaceStrings>
       <replace>(&quot;mail.</replace>
@@ -168,15 +143,12 @@
       <dir>E:\application\apache-maven-3.0.5\repository\org\quartz-scheduler\quartz\2.3.0\quartz-2.3.0.jar!\org</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jd/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jd/DBW/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jd/DBW/timer/quartz.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jd/DBW/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jd/DBW/timer/QuartzTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/quartz.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/watchJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/jobs.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/config/quartz.properties" />
@@ -192,22 +164,42 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/mail_edit.yml" />
         <option value="$PROJECT_DIR$/src/main/java/mail_edit.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/QuartzTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/QuartzTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/WatchJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/jobs_edit.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/jobs_edit.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/main.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DBUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/ProLoaderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/ProLoader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DBUtilTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/MailUtilTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DBSelectTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/EmailMessage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/JSONHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/SendEmailService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/SendEmailServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/MailSenderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DBSelectorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DBUtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DBSelector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/mail/MailUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DataServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/view/mail.vm" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/view/velosityTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/view/velosity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/view/Velosity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/view/VeloDrawer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mail.vm" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DBUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/mail/MailSender.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/mail/MailUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/timer/WatchJobTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/timer/QuartzTaskTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/WatchJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/QuartzTask.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/quartz.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/ProLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jd/dbw/App.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/main.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/ProLoaderTest.java" />
       </list>
     </option>
   </component>
@@ -226,7 +218,12 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -234,11 +231,12 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="263" />
-    <option name="y" value="-15" />
-    <option name="width" value="1110" />
-    <option name="height" value="795" />
+    <option name="x" value="536" />
+    <option name="y" value="248" />
+    <option name="width" value="1050" />
+    <option name="height" value="518" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -262,103 +260,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DBWatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBWatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBWatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBWatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dbw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBWatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBWatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dbw" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBWatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBWatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dbw" type="462c0819:PsiDirectoryNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBWatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBWatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dbw" type="462c0819:PsiDirectoryNode" />
-              <item name="timer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBWatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBWatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBWatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBWatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBWatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBWatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBWatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBWatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dbw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBWatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBWatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dbw" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBWatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBWatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dbw" type="462c0819:PsiDirectoryNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBWatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBWatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBWatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -378,12 +279,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.jd.dbw.timer" />
       <recent name="com.jd.dbw.dao" />
+      <recent name="com.jd.dbw.timer" />
+      <recent name="com.jd.dbw" />
+      <recent name="com.jd.dbw.view" />
       <recent name="com.jd.dbw.mail" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -396,9 +299,12 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jd.dbw.mail" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\fangyi5\IdeaProjects\DBWatcher\src\main\java\com\jd\dbw" />
       <recent name="C:\Users\fangyi5\IdeaProjects\DBWatcher\src\main\java\com\jd\dbw\mail" />
+      <recent name="C:\Users\fangyi5\IdeaProjects\DBWatcher\src\main\java\com\jd\dbw" />
       <recent name="C:\Users\fangyi5\IdeaProjects\DBWatcher\src\main\java" />
       <recent name="C:\Users\fangyi5\IdeaProjects\DBWatcher\src\main" />
       <recent name="C:\Users\fangyi5\IdeaProjects\DBWatcher\src\test\java\com\jd" />
@@ -416,11 +322,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuartzTaskTest.run">
+  <component name="RunManager" selected="JUnit.All in DBWatcher">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jd.dbw.App" />
       <module name="DBWatcher" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jd.dbw.*" />
@@ -431,7 +337,24 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DBUtilTest.connect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in DBWatcher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DBWatcher" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DataServiceTest.getTableData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DBWatcher" />
       <extension name="coverage">
         <pattern>
@@ -442,8 +365,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.jd.dbw.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.jd.dbw.dao.DBUtilTest" />
-      <option name="METHOD_NAME" value="connect" />
+      <option name="MAIN_CLASS_NAME" value="com.jd.dbw.dao.DataServiceTest" />
+      <option name="METHOD_NAME" value="getTableData" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -454,30 +377,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MailUtilTest.send" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DBWatcher" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jd.dbw.mail.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.jd.dbw.mail" />
-      <option name="MAIN_CLASS_NAME" value="com.jd.dbw.mail.MailUtilTest" />
-      <option name="METHOD_NAME" value="send" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ProLoaderTest.load" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProLoaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DBWatcher" />
       <extension name="coverage">
         <pattern>
@@ -489,8 +389,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.jd.dbw.dao" />
       <option name="MAIN_CLASS_NAME" value="com.jd.dbw.dao.ProLoaderTest" />
-      <option name="METHOD_NAME" value="load" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -500,19 +400,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="QuartzTaskTest.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProLoaderTest.getProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DBWatcher" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jd.dbw.timer.*" />
+          <option name="PATTERN" value="com.jd.dbw.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.jd.dbw.timer" />
-      <option name="MAIN_CLASS_NAME" value="com.jd.dbw.timer.QuartzTaskTest" />
-      <option name="METHOD_NAME" value="run" />
+      <option name="PACKAGE_NAME" value="com.jd.dbw.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jd.dbw.dao.ProLoaderTest" />
+      <option name="METHOD_NAME" value="getProperties" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -563,18 +463,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.ProLoaderTest.load" />
-      <item itemvalue="JUnit.DBUtilTest.connect" />
-      <item itemvalue="JUnit.MailUtilTest.send" />
-      <item itemvalue="JUnit.QuartzTaskTest.run" />
+      <item itemvalue="JUnit.ProLoaderTest.getProperties" />
+      <item itemvalue="JUnit.DataServiceTest.getTableData" />
+      <item itemvalue="JUnit.ProLoaderTest" />
+      <item itemvalue="JUnit.All in DBWatcher" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QuartzTaskTest.run" />
+        <item itemvalue="JUnit.All in DBWatcher" />
+        <item itemvalue="JUnit.ProLoaderTest.getProperties" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.MailUtilTest.send" />
-        <item itemvalue="JUnit.DBUtilTest.connect" />
-        <item itemvalue="JUnit.ProLoaderTest.load" />
+        <item itemvalue="JUnit.ProLoaderTest" />
+        <item itemvalue="JUnit.DataServiceTest.getTableData" />
       </list>
     </recent_temporary>
   </component>
@@ -591,44 +491,49 @@
       <workItem from="1529977708492" duration="32807000" />
       <workItem from="1530063654156" duration="8467000" />
       <workItem from="1530149936750" duration="3132000" />
-      <workItem from="1530153245365" duration="11216000" />
+      <workItem from="1530153245365" duration="13252000" />
+      <workItem from="1530239005390" duration="8513000" />
+      <workItem from="1530260994512" duration="10757000" />
+      <workItem from="1530494159769" duration="11895000" />
+      <workItem from="1530509172737" duration="3078000" />
+      <workItem from="1530515518576" duration="543000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProLoaderTest_load - 2018.06.28 at 11h 02m 15s.xml">
+    <history-entry file="ProLoaderTest_load - 2018.07.02 at 13h 24m 03s.xml">
       <configuration name="ProLoaderTest.load" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProLoaderTest_load - 2018.06.28 at 11h 05m 26s.xml">
+    <history-entry file="ProLoaderTest_load - 2018.07.02 at 13h 26m 26s.xml">
       <configuration name="ProLoaderTest.load" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DBUtilTest_connect - 2018.06.28 at 11h 30m 23s.xml">
-      <configuration name="DBUtilTest.connect" configurationId="JUnit" />
+    <history-entry file="ProLoaderTest_getProperties - 2018.07.02 at 13h 28m 08s.xml">
+      <configuration name="ProLoaderTest.getProperties" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MailUtilTest_send - 2018.06.28 at 15h 42m 24s.xml">
-      <configuration name="MailUtilTest.send" configurationId="JUnit" />
+    <history-entry file="DataServiceTest_getTableData - 2018.07.02 at 13h 30m 25s.xml">
+      <configuration name="DataServiceTest.getTableData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MailUtilTest_send - 2018.06.28 at 15h 43m 55s.xml">
-      <configuration name="MailUtilTest.send" configurationId="JUnit" />
+    <history-entry file="ProLoaderTest - 2018.07.02 at 13h 31m 35s.xml">
+      <configuration name="ProLoaderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuartzTaskTest_run - 2018.06.28 at 16h 25m 26s.xml">
-      <configuration name="QuartzTaskTest.run" configurationId="JUnit" />
+    <history-entry file="ProLoaderTest_getProperties - 2018.07.02 at 13h 31m 49s.xml">
+      <configuration name="ProLoaderTest.getProperties" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuartzTaskTest_run - 2018.06.28 at 16h 26m 23s.xml">
-      <configuration name="QuartzTaskTest.run" configurationId="JUnit" />
+    <history-entry file="ProLoaderTest_getProperties - 2018.07.02 at 13h 35m 27s.xml">
+      <configuration name="ProLoaderTest.getProperties" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuartzTaskTest_run - 2018.06.28 at 16h 27m 22s.xml">
-      <configuration name="QuartzTaskTest.run" configurationId="JUnit" />
+    <history-entry file="ProLoaderTest_getProperties - 2018.07.02 at 13h 37m 00s.xml">
+      <configuration name="ProLoaderTest.getProperties" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuartzTaskTest_run - 2018.06.28 at 16h 27m 41s.xml">
-      <configuration name="QuartzTaskTest.run" configurationId="JUnit" />
+    <history-entry file="ProLoaderTest_getProperties - 2018.07.02 at 13h 37m 42s.xml">
+      <configuration name="ProLoaderTest.getProperties" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuartzTaskTest_run - 2018.06.28 at 16h 28m 32s.xml">
-      <configuration name="QuartzTaskTest.run" configurationId="JUnit" />
+    <history-entry file="All_in_DBWatcher - 2018.07.02 at 13h 38m 22s.xml">
+      <configuration name="All in DBWatcher" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55622000" />
+    <option name="totallyTimeSpent" value="92444000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -644,23 +549,21 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.3540305" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.3540305" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.2832244" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2908497" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23747277" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24466951" />
+      <window_info anchor="right" id="Database" order="4" weight="0.06982943" />
       <window_info id="Learn" order="2" />
-      <window_info anchor="bottom" id="Archimedes-IDEA" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Archimedes-IDEA" order="9" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -668,6 +571,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32897604" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -678,187 +583,16 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/main.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jobs_edit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/MailUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DBSelectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/mail/MailUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/QuartzTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/WatchJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/quartz.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DBSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DBUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="77" lean-forward="true" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/main.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/MailUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jobs_edit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/App.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/impl/StdSchedulerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="301" selection-start-line="301" selection-end-line="301" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/quartz.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/quartz.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/quartz.properties" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c3af56f3-bc40-4cc6-8182-7a9fb31bd785/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="235" column="29" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mail_edit.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/mail/MailEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/mail_edit.xml" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/mail/mail_edit.yml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/mail_edit.yml" />
     <entry file="file://$PROJECT_DIR$/target/classes/quartz.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/mail_edit.yml" />
-    <entry file="file://$PROJECT_DIR$/target/classes/jobs_edit.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/jobs_edit.xml" />
     <entry file="file://$PROJECT_DIR$/target/classes/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -866,24 +600,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jobs_edit.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/JsonUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/EmailMessage.java" />
+    <entry file="file://$PROJECT_DIR$/DBWatcher.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/JSONHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/HttpUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/SendEmailService.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DBSelectTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/utils/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="176">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/quartz.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/utils/JSONHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="198">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/main.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/utils/JsonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/utils/SendEmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4c55cca8-a710-44ed-8b23-a8c976a58413/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DBUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DBSelector.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DBSelectorTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/view.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/view/velosityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mail.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/SendEmailServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/AppTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="147" column="36" lean-forward="true" selection-start-line="147" selection-start-column="36" selection-end-line="147" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/timer/WatchJobTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/MailSenderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -894,120 +688,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/mail/MailSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/ProLoaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/MailUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DBSelectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DBUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/WatchJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="63" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/mail/MailUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/ProLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DBUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DBSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/QuartzTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="21" selection-start-line="7" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="366">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/timer/QuartzTaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/view/VeloDrawer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/WatchJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/unused.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/timer/QuartzTask.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/mail/MailUtilTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8/junit-4.8.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8/junit-4.8.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8/junit-4.8.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8/junit-4.8.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/DataServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/quartz.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/dao/ProLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/main.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jd/dbw/dao/ProLoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/mail/MailUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/utils/EmailMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/dbw/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="286">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1029,7 +860,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1077,7 +908,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.google.protobuf:protobuf-java:2.6.0</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

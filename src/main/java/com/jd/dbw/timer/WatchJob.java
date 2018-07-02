@@ -1,6 +1,6 @@
 package com.jd.dbw.timer;
 
-import com.jd.dbw.mail.MailUtil;
+import com.jd.dbw.mail.MailSender;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 
@@ -9,7 +9,9 @@ public class WatchJob implements Job {
     @Override
     public void execute(JobExecutionContext jobExecutionContext) {
 
-        MailUtil.send();
-
+        MailSender mailSender = new MailSender();
+        mailSender.sendMessage();
+        System.out.println();
+        System.out.println("Done");
     }
 }
