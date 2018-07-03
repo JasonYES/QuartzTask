@@ -1,7 +1,5 @@
 package com.jd.dbw.dao;
 
-import com.jd.dbw.mail.MailUtil;
-
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
@@ -17,13 +15,13 @@ public class ProLoader {
 
     public static void init() {
         if (location == null) {
-            try (InputStream input = ProLoader.class.getClassLoader().getResourceAsStream("main.properties")){
+            try (InputStream input = ProLoader.class.getClassLoader().getResourceAsStream("main.properties")) {
                 properties.load(input);
             } catch (Exception e) {
                 e.printStackTrace();
             }
         } else {
-            try (InputStream input = new FileInputStream(location)){
+            try (InputStream input = new FileInputStream(location)) {
                 properties.load(input);
             } catch (Exception e) {
                 e.printStackTrace();

@@ -5,10 +5,10 @@ import java.util.Properties;
 
 public class DBUtil {
 
+
     public static int count(String table) {
 
-        String sql;
-        sql = "SELECT COUNT(*) AS total FROM " + table;
+        String sql = "SELECT COUNT(*) AS total FROM " + table;
 
         try (Connection conn = DBUtil.connect();
              Statement s = conn.createStatement();
