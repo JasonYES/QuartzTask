@@ -3,16 +3,31 @@
 <head>
     <meta charset="utf-8">
     <title>数据库实时报告</title>
+    <style type="text/css">
+        table {
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
 
 <div class='table-class'>
-    <table width='400' border='1px'>
-        <h3>数据库实时报告</h3>
-        <tr style='background-color: #d7d7d7;'><td width='300'>数据表</td><td width='600'>记录条数</td><td width='400'>说明</td></tr>
+
+    <h3>数据库实时报告</h3>
+
+    <table width='400'>
+        <tr style='background-color: #d7d7d7;'>
+            <td width='600'>数据表</td>
+            <td width='500'>记录数</td>
+            <td width='500'>说明</td>
+        </tr>
 
         #foreach($m in $map.entrySet())
-        <tr><td>$m.key</td><td>$m.value</td><td>无异常</td></tr>
+            <tr>
+                <td style="border:1px solid #B0B0B0">$m.key</td>
+                <td style="border:1px solid #B0B0B0">$m.value</td>
+                <td style="border:1px solid #B0B0B0">正常</td>
+            </tr>
         #end
 
     </table>
@@ -20,16 +35,4 @@
 
 </body>
 
-<style>
-    body{
-        text-align: center;
-    }
-    .table-class table{
-        margin: 0px auto;
-        width: 30%;
-        height: 100px;
-        border-width: 1px;
-        border-collapse: collapse;
-    }
-</style>
 </html>

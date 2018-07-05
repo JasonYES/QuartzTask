@@ -18,7 +18,6 @@ public class ProLoaderTest {
 
     @Test
     public void getProperties() {
-        Properties a = ProLoader.getProperties();
         assertTrue(ProLoader.getProperties().getProperty("quartz.cron") != null);
     }
 }

@@ -6,34 +6,17 @@
 
   <groupId>com.jd</groupId>
   <artifactId>DBWatcher</artifactId>
-  <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-
   <name>DBWatcher</name>
 
 
-  <profiles>
-    <profile>
-      <id>dev</id>
-      <properties>
 
-        <!--database config-->
-        <!--<db.url>jdbc:mysql://localhost:3306/world?serverTimezone=UTC&useSSL=false</db.url>-->
-        <!--<db.username>root</db.username>-->
-        <!--<db.password>root</db.password>-->
-        <!--<db.driver-class-name>com.mysql.cj.jdbc.Driver</db.driver-class-name>-->
-        <!--<db.tables>city,country</db.tables>-->
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
 
-        <!--&lt;!&ndash;mail config&ndash;&gt;-->
-        <!--<mail.subject>数据库实时报告</mail.subject>-->
-        <!--<mail.target>fy775494475@163.com</mail.target>-->
-
-
-      </properties>
-    </profile>
-
-
-  </profiles>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -143,64 +126,69 @@
       <artifactId>velocity-engine-core</artifactId>
       <version>2.0</version>
     </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>25.1-jre</version>
+    </dependency>
+
   </dependencies>
 
   <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
-          <artifactId>maven-clean-plugin</artifactId>
-          <version>3.0.0</version>
-        </plugin>
-        <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
-        <plugin>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>3.0.2</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.7.0</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.20.1</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-jar-plugin</artifactId>
-          <version>3.0.2</version>
-        </plugin>
-        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-assembly-plugin</artifactId>
+          <version>2.5.5</version>
+          <executions>
+            <execution>
+              <id>jar-with-dependencies</id>
+              <phase>package</phase>
+              <goals>
+                <goal>single</goal>
+              </goals>
+              <configuration>
+                <descriptorRefs>
+                  <descriptorRef>jar-with-dependencies</descriptorRef>
+                </descriptorRefs>
+                <archive>
+                  <manifest>
+                    <mainClass>com.jd.dbw.App</mainClass>
+                  </manifest>
+                </archive>
+              </configuration>
+            </execution>
+            <execution>
+              <id>dist</id>
+              <phase>package</phase>
+              <goals>
+                <goal>single</goal>
+              </goals>
+              <configuration>
+                <descriptors>
+                  <descriptor>src/main/assembly/deployment.xml</descriptor>
+                </descriptors>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>2.6</version>
           <configuration>
             <archive>
+              <addMavenDescriptor>false</addMavenDescriptor>
+              <compress>true</compress>
               <manifest>
                 <mainClass>com.jd.dbw.App</mainClass>
+                <addClasspath>true</addClasspath>
+                <classpathPrefix>../lib/</classpathPrefix>
               </manifest>
             </archive>
-            <descriptorRefs>
-              <descriptorRef>jar-with-dependencies</descriptorRef>
-            </descriptorRefs>
           </configuration>
         </plugin>
-        <plugin>
-          <artifactId>maven-install-plugin</artifactId>
-          <version>2.5.2</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>2.8.2</version>
-        </plugin>
       </plugins>
-    </pluginManagement>
-      <plugins>
-          <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-compiler-plugin</artifactId>
-              <configuration>
-                  <source>8</source>
-                  <target>8</target>
-              </configuration>
-          </plugin>
-      </plugins>
+
   </build>
 </project>

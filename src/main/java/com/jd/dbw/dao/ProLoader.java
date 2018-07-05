@@ -2,6 +2,7 @@ package com.jd.dbw.dao;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Properties;
 
 public class ProLoader {
@@ -21,7 +22,9 @@ public class ProLoader {
                 e.printStackTrace();
             }
         } else {
-            try (InputStream input = new FileInputStream(location)) {
+            try (
+                    InputStreamReader input = new InputStreamReader(new FileInputStream(location), "UTF-8")
+            ) {
                 properties.load(input);
             } catch (Exception e) {
                 e.printStackTrace();
@@ -33,18 +36,7 @@ public class ProLoader {
         if (properties.size() == 0) {
             init();
         }
-        return new Properties(properties);
+        return properties;
     }
 
-//    @Deprecated
-//    public static Properties load() {
-//        Properties pro = new Properties();
-//
-//        try (InputStream input = ProLoader.class.getClassLoader().getResourceAsStream("main.properties")){
-//            pro.load(input);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//        return pro;
-//    }
 }

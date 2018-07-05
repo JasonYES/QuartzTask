@@ -12,7 +12,5 @@ public class WatchJob implements Job {
         MailSender mailSender = new MailSender();
         mailSender.sendMessage();
 
-        System.out.println();
-        System.out.println("Done");
     }
 }

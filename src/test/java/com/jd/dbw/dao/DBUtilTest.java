@@ -22,4 +22,9 @@ public class DBUtilTest {
     public void count() {
         DBUtil.count("city");
     }
+
+    @Test
+    public void countTables() {
+        System.out.println( DBUtil.countTables("mysql"));
+    }
 }

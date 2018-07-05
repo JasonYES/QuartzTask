@@ -11,6 +11,8 @@ import java.io.StringWriter;
 import java.util.Map;
 
 public class VeloDrawer {
+
+
     public static String draw() {
         VelocityEngine ve = new VelocityEngine();
         ve.setProperty(RuntimeConstants.RESOURCE_LOADER, "classpath");

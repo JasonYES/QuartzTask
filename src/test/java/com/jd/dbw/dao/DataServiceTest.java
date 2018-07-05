@@ -13,12 +13,7 @@ public class DataServiceTest {
     @Test
     public void getTableData() throws SQLException {
 
-        Connection connection = Mockito.mock(Connection.class);
-
-
-        connection.close();
-
-
         System.out.println(DataService.getTableData());
+
     }
 }

@@ -1,12 +1,14 @@
 package com.jd.dbw.dao;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
-public class DBUtil {
+class DBUtil {
 
 
-    public static int count(String table) {
+    static int count(String table) {
 
         String sql = "SELECT COUNT(*) AS total FROM " + table;
 
@@ -20,10 +22,39 @@ public class DBUtil {
             e.printStackTrace();
         }
 
-        return 0;
+        return -1;
     }
 
-    public static Connection connect() throws SQLException {
+    static List<String> countTables(String db) {
+
+        List<String> tables = new ArrayList<>();
+        ResultSet rs = null;
+
+        try (Connection conn = DBUtil.connect();
+             Statement s = conn.createStatement()) {
+
+            s.execute("use " + db);
+            rs = s.executeQuery("show tables");
+
+            while (rs.next()) {
+                tables.add("`" + db + "`.`" + rs.getString(1) + "`");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            if (rs != null) {
+                try {
+                    rs.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+        return tables;
+    }
+
+    static Connection connect() throws SQLException {
 
         Properties pro = ProLoader.getProperties();
         String JDBC_DRIVER = pro.getProperty("db.driver-class-name");
@@ -36,8 +67,7 @@ public class DBUtil {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+
         return DriverManager.getConnection(DB_URL, USER, PASS);
-
     }
-
 }
